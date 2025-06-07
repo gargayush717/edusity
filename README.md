@@ -1,12 +1,87 @@
-# React + Vite
+# 🎓 Edusity
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Edusity** is a React + Vite based educational web app with smooth scroll navigation and a modular component structure. Built for performance, responsiveness, and clarity in code.
 
-Currently, two official plugins are available:
+> 🔗 Repository: [github.com/gargayush717/edusity](https://github.com/gargayush717/edusity)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React
+- ⚡ Vite
+- 🎨 CSS
+- 📦 NPM
+- 🔄 react-scroll
+
+---
+
+## 📁 Project Folder Structure
+
+```bash
+edusity/
+├── README.md
+├── dist/
+│   ├── assets/
+│   └── index.html
+├── eslint.config.js
+├── index.html
+├── node_modules/
+│   ├── ... (dependencies)
+├── package-lock.json
+├── package.json
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── assets/
+│   ├── components/
+│   ├── index.css
+│   └── main.jsx
+├── structure.txt
+└── vite.config.js
+```
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/gargayush717/edusity
+   cd edusity
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🛠️ Available Scripts
+
+- `npm run dev` – Start the development server
+- `npm run build` – Create a production build
+- `npm run preview` – Preview the production build
+
+---
+
+## ✨ Features
+
+- Fast Vite bundling
+- Clean and scalable component structure
+- Smooth scrolling experience with `react-scroll`
+- Organized folder layout
+- Ready for further development or deployment
+
+---
+
+## 👤 Author
+
+**Ayush Kumar Garg**  
+📍 [GitHub](https://github.com/gargayush717)
